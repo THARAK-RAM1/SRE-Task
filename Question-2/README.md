@@ -1,6 +1,6 @@
 # Kubernetes Deployment and CronJob - Question 2
 
-This repository contains Kubernetes manifests and/or Helm chart to deploy the **shop backend API** application and a CronJob to the Kubernetes cluster as per the provided requirements.
+This repository contains Kubernetes manifests and/or Helm chart to deploy the **shop backend API** application and a CronJob to the Kubernetes cluster as per the provided requirements with **Security Best Practices**
 
 ---
 
