@@ -1,0 +1,11 @@
+replicaCount: 3
+
+image:
+  repository: strm/helloworld-http
+  tag: latest
+
+cronjob:
+  schedule: "*/30 * * * *"
+
+service:
+  port: 80
