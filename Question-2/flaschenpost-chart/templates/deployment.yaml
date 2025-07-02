@@ -17,6 +17,14 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           ports:
             - containerPort: 80
+          securityContext:
+            runAsUser: 1000               # Run as non-root user
+            runAsNonRoot: true
+            readOnlyRootFilesystem: true # Make filesystem read-only
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
           livenessProbe:
             tcpSocket:
               port: 80

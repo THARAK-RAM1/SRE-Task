@@ -15,4 +15,12 @@ spec:
                 - /bin/sh
                 - -c
                 - echo "Hello SRE"
+              securityContext:
+                runAsUser: 1000               # Run as non-root user
+                runAsNonRoot: true
+                readOnlyRootFilesystem: true # Make filesystem read-only
+                allowPrivilegeEscalation: false
+                capabilities:
+                  drop:
+                    - ALL
           restartPolicy: OnFailure
