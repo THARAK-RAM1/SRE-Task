@@ -25,23 +25,6 @@ python3 Question4.py
 
 
 
-Example Output
-```bash
-Total requests per pod:
-ingress-nginx-controller-7b5855865f-7c8b4: 9
 
-Response code summary:
-404: 6
-200: 3
-
-Total bytes sent per pod:
-ingress-nginx-controller-7b5855865f-7c8b4: 700220
-
-Unique request paths:
-/data/spirituosen/tabakwaren-spirituosen/3
-/data/wasser/gourmet-wasser/30
-/data/wasser/gourmet-wasser/12
-/data/wasser/heilwasser/30
-/data/wasser/medium/30
-/data/wasser/spritzig/12
-/data/wasser/still/30
+# Output
+![Alt text](./Question3_Output.png)

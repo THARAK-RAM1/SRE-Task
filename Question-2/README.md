@@ -69,3 +69,10 @@ kubectl get cronjobs
 
 ### To uninstall the release:
 helm uninstall flaschenpost-release
+
+# Output
+## Manifest Output
+![](./Question2_Manifest_Output.png)
+
+## Helm Output
+![](./Question2_Helm_Output.png)

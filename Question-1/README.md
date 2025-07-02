@@ -60,3 +60,6 @@ terraform validate
 
 ### Preview the Terraform plan
 terraform plan -var-file="terraform.tfvars"
+
+# Output
+![Alt text](./Question1_Output.png)
