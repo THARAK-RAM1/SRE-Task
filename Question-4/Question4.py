@@ -25,6 +25,7 @@ def getMovieTitles(substr):
         page += 1
 
     # Sort titles in ascendeing order
+    titles = list(set(titles))
     titles.sort()
     return titles
 
